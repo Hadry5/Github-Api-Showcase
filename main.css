@@ -1,0 +1,123 @@
+/* General */
+
+/* 
+    Colores
+    F5DF4E
+    373948
+    949398
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 95%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+/* Github */
+.github {
+    background-color: #F5DF4E;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 3px black;
+    width: 100%;
+    max-width: 768px;
+    min-width: 362px;
+}
+/* Search */
+.search{
+    margin-bottom: 2rem;
+
+}
+
+.search input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: gray;
+    color: white;
+
+}
+/* Usercard */
+.usercard img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border: 3px solid gray; 
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px black;
+}
+
+.usercard {
+    color: #373948;
+    font-size: 1rem;
+}
+
+.usercard h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.usercard p {
+    text-align: center;
+    font-size: 1rem;
+}
+/* Data */
+.data {
+    margin-bottom: 2rem;
+}
+
+.data ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+/* Repos */
+.repos {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.repos a {
+    text-decoration: none;
+    color: white;
+    background-color: #373948;
+    padding: 1rem;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, .5);
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: .4rem;
+    display: inline-block;
+}
+
+/* Code */
+.code {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.code a {
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+.code a:active, .code a:link, .code a:focus, .code a:visited {
+    color: white;
+}
